@@ -1,0 +1,553 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+hr {
+  margin-right: -535px;
+  margin-top: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.header-bar {
+  text-align: center;
+  background-color: #8a7350;
+  height: 39px;
+  color: white;
+  font-family: tahoma;
+}
+.header-bar p {
+  padding-top: 10px;
+}
+.header {
+  background-color: black;
+  height: 79px;
+}
+.banner img {
+  height: 30px;
+}
+.banner {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 26px;
+}
+.banner li {
+  list-style: none;
+}
+.banner a {
+  color: rgb(98, 98, 98);
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  text-decoration: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.banner button {
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -11px;
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+.banner a:hover {
+  color: white;
+  border-bottom: 800px rgb(255, 255, 28);
+}
+
+.section img {
+  position: relative;
+  width: 100%;
+}
+.text1-img {
+  position: absolute;
+  top: 42%;
+  left: 851px;
+  font-family: tahoma;
+  font-size: x-large;
+  font-style: initial;
+}
+.text1-img p {
+  font-size: small;
+  padding-left: 43px;
+  margin-top: 5px;
+  font-family: tahoma;
+  font-style: initial;
+}
+.deals {
+  padding-left: 39%;
+  margin-top: 16px;
+  padding-top: 9px;
+  font-size: large;
+  font-family: tahoma;
+}
+.deals p {
+  font-size: small;
+  padding-left: 36px;
+  margin-top: 30px;
+}
+.BLS {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  margin-bottom: 83px;
+  margin-left: 184px;
+  margin-right: 193px;
+  height: 121px;
+}
+.BLS :hover{
+  transform: scale(1.1);
+  cursor: pointer;
+
+}
+.Puma-video video {
+  position: relative;
+  width: 100%;
+}
+.video-first {
+  position: absolute;
+  bottom: -600px;
+  left: 40px;
+  color: rgb(0, 0, 0);
+  font-size: 27px;
+  font-family: tahoma;
+}
+.video-first p {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+.video-first button {
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 17px;
+  padding-bottom: 8px;
+  font-size: 15px;
+  font-family: tahoma;
+  margin-top: 22px;
+  background-color: black;
+  color: white;
+}
+.Virat-Kohli {
+  margin-top: 33px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.Virat-Kohli img {
+  width: 100%;
+}
+.text-kholi {
+  position: absolute;
+  color: white;
+  top: 150px;
+  padding-left: 420px;
+  font-family: sans-serif;
+  font-size: 32px;
+}
+.text-ptag {
+  font-size: large;
+  padding-left: 146px;
+  margin-top: 6px;
+}
+.text-ptag2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  padding-left: 137px;
+  margin-top: 10px;
+}
+.text-kholi button {
+  padding-left: 40px;
+  margin-left: 148px;
+  margin-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-family: tahoma;
+}
+.h2-text {
+  padding-left: 37%;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+/* Section-5 */
+
+.collaboration {
+  display: flex;
+  margin: 30px;
+}
+.img-collaboration img {
+  width: 100%;
+  padding-right: 10px;
+}
+.img-collaboration-2 img {
+  width: 100%;
+  padding-left: 10px;
+}
+.collaboration-text {
+  font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding-left: 200px;
+}
+.collaboration-ptag {
+  font-size: small;
+  font-weight: 0;
+  padding-left: 170px;
+}
+.colloboration-button {
+  background-color: black;
+  color: white;
+  padding-left: 95px;
+  padding-top: 16px;
+  padding-bottom: 11px;
+  padding-right: 95px;
+  margin-left: 148px;
+  margin-top: 15px;
+  font-size: medium;
+}
+
+/* section- 6*/
+
+.classic-video {
+  position: relative;
+  background-color: rgb(245, 215, 173);
+  width: 100%;
+  height: 500px;
+  margin-top: 170px;
+  margin-bottom: 150px;
+  padding-left: 50px;
+  padding-top: 39px;
+}
+.classic-video h1 {
+  font-size: 40px;
+  font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 550;
+}
+.p-tag-2 {
+  font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+}
+.p-tag {
+  margin-top: 18px;
+  font-size: x-small;
+  font-weight: 100;
+}
+.button-shop {
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 26px;
+  padding-left: 26px;
+}
+.classic-play video {
+  position: absolute;
+  width: 50%;
+  height: 700px;
+  left: 600px;
+  top: -63px;
+}
+.classic-img img {
+  position: absolute;
+  width: 578px;
+  height: 372px;
+  left: 73px;
+  top: 198px;
+}
+
+.FERRARI {
+  margin-top: 5px;
+  position: relative;
+}
+.FERRARI img {
+  width: 100%;
+}
+.text-ferrari {
+  position: absolute;
+  top: 152px;
+  left: 40px;
+  color: white;
+  font-size: 27px;
+  font-family: tahoma;
+}
+.text-ferrari P {
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+.text-ferrari button {
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-left: 16px;
+  padding-right: 17px;
+  padding-bottom: 8px;
+  font-size: 15px;
+  font-family: tahoma;
+  margin-top: 22px;
+}
+.text-kholi-3 {
+  position: absolute;
+  color: white;
+  top: 150px;
+  padding-left: 360px;
+  font-family: sans-serif;
+  font-size: 32px;
+}
+.text-ptag-3 {
+  font-size: large;
+  padding-left: 89px;
+  margin-top: 12px;
+}
+.text-ptag2-3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  padding-left: 152px;
+  margin-top: 10px;
+}
+.text-kholi-3 button {
+  padding-left: 40px;
+  margin-left: 134px;
+  margin-top: 34px;
+  padding-right: 40px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-family: tahoma;
+}
+
+/* section-14 */
+.product-h1 {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-family: tahoma;
+  font-size: 24px;
+  line-height: 1.333;
+  font-weight: 700;
+}
+
+.first-product {
+  display: flex;
+  margin-top: 13px;
+  margin-bottom: 37px;
+  padding-left: 29px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.products img {
+  width: 263px;
+  height: 248px;
+  padding-left: 15px;
+}
+
+.ptag-product {
+  margin-top: 9px;
+  padding-left: 19px;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.products :hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Section-15 */
+
+.dress-shos {
+  display: flex;
+}
+.dres-polo {
+  padding-left: 45px;
+  padding-right: 20px;
+}
+.dres-polo img {
+  width: 100%;
+}
+.SHOU-PUMA img {
+  width: 100%;
+}
+
+.shou-polo {
+  padding-left: 100px;
+  font-family: tahoma;
+  margin-top: 8px;
+}
+.dres-polo p {
+  padding-left: 181px;
+}
+.SHOU-PUMA p {
+  padding-left: 181px;
+}
+.sho {
+  padding-left: 122px;
+  margin-left: 106px;
+  margin-top: 12px;
+  padding-top: 18px;
+  padding-right: 143px;
+  padding-bottom: 12px;
+  background-color: black;
+  color: white;
+  font-size: medium;
+  font-family: tahoma;
+
+  /*----------------- footer------------- */
+}
+.parant-footer {
+  margin-top: 50px;
+  font-family: tahoma;
+  display: flex;
+  background-color: #000000e6;
+  width: 100%;
+  height: 445px;
+  position: relative;
+}
+.first-footer {
+  color: rgb(203, 199, 199);
+  padding-left: 50px;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.first-footer h1 {
+  font-size: medium;
+  color: white
+}
+.grid-container {
+  grid-template-columns: auto auto;
+  column-gap: 115px;
+  display: grid;
+  padding-right: 244px;
+  padding-top: 10px;
+  margin-bottom: 60px;
+  letter-spacing: 1px;
+}
+.second-footer {
+  margin-bottom: 10px;
+  color: rgb(203, 199, 199);
+  margin-top: 63px;
+  padding-bottom: 70px;
+}
+.second-footer h1 {
+  font-size: medium;
+  color: white
+}
+.third-footer {
+  color: rgb(203, 199, 199);
+  padding-left: 164px;
+  padding-top: 56px;
+  font-family: tahoma;
+  font-size: small;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+.third-footer a :hover {
+  transform: scale(1.1);
+}
+.third-footer a {
+  margin-left: 15px;
+}
+
+.third-footer h1 {
+  font-size: 15px;
+  margin-bottom: 22px;
+  padding-left: 11px;
+  color: white;
+}
+.third-footer img{
+  width: 180px;
+  margin-top: 25px;
+  margin-left: 9px;
+}
+
+.footer-four {
+  color: rgb(203, 199, 199);
+  background-color: #000000e6;
+  padding-top: 82px;
+}
+.footer-four button {
+  background-color: #000000e6;
+}
+.parant-footer li {
+  list-style: none;
+}
+.footer-four img {
+  width: 5px;
+  height: 5px;
+}
+.imgtag1 img {
+  width: 5px;
+}
+
+.ff li {
+  padding-bottom: 7px;
+}
+
+/*----------section-12------------ */
+
+.text-kholi-2 {
+  position: absolute;
+  color: white;
+  top: 146px;
+  padding-left: 307px;
+  font-family: sans-serif;
+  font-size: 26px;
+}
+.text-ptag-2 {
+  font-size: large;
+  padding-left: 172px;
+  margin-top: 12px;
+}
+.text-kholi-2 button {
+  padding-left: 40px;
+  margin-left: 228px;
+  margin-top: 34px;
+  padding-right: 40px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-family: tahoma;
+}
+.last-footer button {
+  position: absolute;
+  color: white;
+  margin-top: -102px;
+  margin-left: 552px;
+  background-color: #000000e6;
+}
+.imgtag1 {
+  position: absolute;
+  margin-top: -68px;
+  margin-left: 49px;
+}
+.imgtag1 p  {
+  margin-left: 873px;
+  margin-top: -42px;
+  font-size: 12px;
+  color: #c2c2c2  ;
+  font-family: tahoma;
+}
+.alfas{
+  padding-left: 123px;
+}
+.imgtag1 img {
+  width: 42px;
+  margin-top: -29px;
+}
+.last-footer img {
+  width: 130px;
+  height: 47px;
+}
